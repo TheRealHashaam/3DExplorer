@@ -1,0 +1,773 @@
+fileFormatVersion: 2
+guid: e86dacece5a144640b62922aa27061dd
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: idle
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'WEREWOLF_ Pelvis' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'WEREWOLF_
+      R HorseLink' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'WEREWOLF_ L HorseLink' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'WEREWOLF_ L Clavicle'
+      has translation animation that will be discarded.\n\t'WEREWOLF_ R Clavicle'
+      has translation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 29.7
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: WEREWOLF_
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ Queue de cheval 1
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ L Finger0
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ L Finger01
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ L Finger02
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ L Finger1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ L Finger11
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ L Finger12
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ L Finger2
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ L Finger21
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ L Finger22
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ L Finger3
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ L Finger31
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ L Finger32
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ R Finger3
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ R Finger31
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ R Finger32
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ R Finger2
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ R Finger21
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ R Finger22
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ R Finger1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ R Finger11
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ R Finger12
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: WEREWOLF_ Neck
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: WEREWOLF@idle(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WEREWOLF_
+      parentName: WEREWOLF@idle(Clone)
+      position: {x: 0, y: 1.541044, z: 0}
+      rotation: {x: -0.61661863, y: 0.45711538, z: 0.3633979, w: 0.5279858}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: WEREWOLF_ Pelvis
+      parentName: WEREWOLF_
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.5058673, y: 0.45169827, z: 0.5626293, w: 0.47277412}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: WEREWOLF_ R Thigh
+      parentName: WEREWOLF_ Pelvis
+      position: {x: -0.00000022888183, y: -0.00000022888183, z: -0.16818939}
+      rotation: {x: -0.0127291065, y: 0.9547555, z: -0.27759382, w: -0.10593285}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: WEREWOLF_ R Calf
+      parentName: WEREWOLF_ R Thigh
+      position: {x: -0.89380413, y: -0.000000038146972, z: 0}
+      rotation: {x: -0.0251273, y: 0.038723517, z: 0.5261712, w: 0.84912485}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: WEREWOLF_ R HorseLink
+      parentName: WEREWOLF_ R Calf
+      position: {x: -0.6564234, y: 0.000000076293944, z: 0}
+      rotation: {x: 0.00000005157882, y: 0.000000058226657, z: -0.8502114, w: 0.52644145}
+      scale: {x: 0.99999976, y: 1.0000001, z: 1}
+    - name: WEREWOLF_ R Foot
+      parentName: WEREWOLF_ R HorseLink
+      position: {x: -0.3065505, y: 0.000000038146972, z: 0}
+      rotation: {x: 0.08203927, y: -0.1834866, z: 0.33482176, w: 0.9205958}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: WEREWOLF_ R Toe0
+      parentName: WEREWOLF_ R Foot
+      position: {x: -0.14797434, y: 0.3144447, z: -0.000000076293944}
+      rotation: {x: 0.00000025708397, y: -0.0000000922739, z: -0.7071068, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WEREWOLF_ L Thigh
+      parentName: WEREWOLF_ Pelvis
+      position: {x: 0.00000022888183, y: 0.00000022888183, z: 0.16818938}
+      rotation: {x: -0.009944436, y: -0.8817771, z: -0.46891487, w: -0.049890835}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: WEREWOLF_ L Calf
+      parentName: WEREWOLF_ L Thigh
+      position: {x: -0.8938041, y: 0.000000076293944, z: -0.000000038146972}
+      rotation: {x: 0.060373142, y: -0.08459462, z: 0.44260272, w: 0.89067477}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WEREWOLF_ L HorseLink
+      parentName: WEREWOLF_ L Calf
+      position: {x: -0.6564234, y: 0.000000057220458, z: 0}
+      rotation: {x: 0.0000000070624897, y: -0.00000002484631, z: -0.6448685, w: 0.76429355}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: WEREWOLF_ L Foot
+      parentName: WEREWOLF_ L HorseLink
+      position: {x: -0.30655053, y: 0, z: 0}
+      rotation: {x: 0.17614175, y: 0.32526487, z: 0.123669155, w: 0.9208055}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: WEREWOLF_ L Toe0
+      parentName: WEREWOLF_ L Foot
+      position: {x: -0.14797436, y: 0.31444472, z: 0}
+      rotation: {x: 0.00000027339902, y: -0.00000014049621, z: -0.7071068, w: 0.7071067}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: WEREWOLF_ Tail
+      parentName: WEREWOLF_ Pelvis
+      position: {x: 0.0066784667, y: -0.27628747, z: -0.04106713}
+      rotation: {x: -0.0021579426, y: -0.08886137, z: 0.91934323, w: 0.3832845}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: WEREWOLF_ Tail1
+      parentName: WEREWOLF_ Tail
+      position: {x: -0.22223346, y: -0.00027923583, z: -0.000013132095}
+      rotation: {x: 0.05881682, y: -0.25300255, z: 0.13305569, w: 0.95646566}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: WEREWOLF_ Tail2
+      parentName: WEREWOLF_ Tail1
+      position: {x: -0.36630663, y: -0.0002532959, z: -0.000080661775}
+      rotation: {x: 0.16957642, y: -0.15321638, z: 0.1178943, w: 0.9663693}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: WEREWOLF_ Tail3
+      parentName: WEREWOLF_ Tail2
+      position: {x: -0.34738198, y: -0.0003009033, z: -0.00015491486}
+      rotation: {x: 0.23853447, y: -0.08803945, z: 0.03795393, w: 0.96639013}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: WEREWOLF_ Tail4
+      parentName: WEREWOLF_ Tail3
+      position: {x: -0.42795345, y: -0.000260849, z: -0.00014640807}
+      rotation: {x: 0.2516514, y: -0.0036972302, z: -0.052039955, w: 0.96641076}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: WEREWOLF_ Spine
+      parentName: WEREWOLF_
+      position: {x: 0.00036949158, y: 0.000000009536743, z: 0.26859686}
+      rotation: {x: -0.55158585, y: 0.4424402, z: 0.44244146, w: 0.5515843}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: WEREWOLF_ Spine1
+      parentName: WEREWOLF_ Spine
+      position: {x: -0.4755986, y: -0.00032112122, z: 0.00006476402}
+      rotation: {x: -0.12647143, y: -0.11955887, z: -0.20510733, w: 0.9631416}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+    - name: WEREWOLF_ Neck
+      parentName: WEREWOLF_ Spine1
+      position: {x: -0.4716194, y: -0.000121154786, z: 0}
+      rotation: {x: 0.015584772, y: 0.048172817, z: 0.0024111231, w: 0.9987145}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: WEREWOLF_ Neck1
+      parentName: WEREWOLF_ Neck
+      position: {x: -0.18763666, y: -0.00014938354, z: 0}
+      rotation: {x: 0.0000000018626454, y: -0.0000000146683306, z: 2.7321896e-17, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: WEREWOLF_ Head
+      parentName: WEREWOLF_ Neck1
+      position: {x: -0.18763664, y: 0, z: 0.000000009536743}
+      rotation: {x: 0.08821725, y: 0.16135252, z: 0.5789887, w: 0.7943269}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WEREWOLF_ Queue de cheval 1
+      parentName: WEREWOLF_ Head
+      position: {x: 0.037371214, y: 0.14668354, z: 0.000002632141}
+      rotation: {x: -0.0000000024620934, y: 0.0000022738043, z: -0.8197844, w: 0.57267237}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WEREWOLF_ L Clavicle
+      parentName: WEREWOLF_ Neck
+      position: {x: -0.000000076293944, y: 0.00014923095, z: 0.11949693}
+      rotation: {x: -0.5875721, y: -0.23228404, z: 0.74661154, w: -0.20826507}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WEREWOLF_ L UpperArm
+      parentName: WEREWOLF_ L Clavicle
+      position: {x: -0.50483036, y: 0, z: 0}
+      rotation: {x: -0.5444012, y: -0.03441541, z: 0.11300972, w: 0.8304648}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+    - name: WEREWOLF_ L Forearm
+      parentName: WEREWOLF_ L UpperArm
+      position: {x: -0.73099405, y: 0, z: 0}
+      rotation: {x: -0.015434144, y: 0.022483358, z: 0.011465172, w: 0.9995623}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: WEREWOLF_ L Hand
+      parentName: WEREWOLF_ L Forearm
+      position: {x: -0.6756575, y: 0, z: 0}
+      rotation: {x: -0.65745765, y: -0.1205158, z: -0.07678651, w: 0.739817}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: WEREWOLF_ L Finger0
+      parentName: WEREWOLF_ L Hand
+      position: {x: -0.1380785, y: 0.03502014, z: -0.20569122}
+      rotation: {x: -0.74227947, y: 0.19357051, z: -0.10304045, w: -0.63319373}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: WEREWOLF_ L Finger01
+      parentName: WEREWOLF_ L Finger0
+      position: {x: -0.13628197, y: 0.000000076293944, z: 0}
+      rotation: {x: -0.00000020861623, y: 0.00000065565104, z: -0.03791714, w: 0.99928087}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WEREWOLF_ L Finger02
+      parentName: WEREWOLF_ L Finger01
+      position: {x: -0.13628197, y: -0.00000022888183, z: 0}
+      rotation: {x: 0.00000003261527, y: 0.0000000068166854, z: -0.25477073, w: 0.9670015}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: WEREWOLF_ L Finger1
+      parentName: WEREWOLF_ L Hand
+      position: {x: -0.32362038, y: 0.019277344, z: -0.12565476}
+      rotation: {x: -0.04848997, y: -0.11083309, z: -0.07296869, w: 0.9899699}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: WEREWOLF_ L Finger11
+      parentName: WEREWOLF_ L Finger1
+      position: {x: -0.13628185, y: 0, z: 0}
+      rotation: {x: -0.00000013411041, y: -0.0000013634558, z: -0.037875824, w: 0.9992825}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: WEREWOLF_ L Finger12
+      parentName: WEREWOLF_ L Finger11
+      position: {x: -0.11396293, y: 0.00000015258789, z: -0.000000076293944}
+      rotation: {x: 0.000000009289969, y: -0.000000031998745, z: -0.1801042, w: 0.9836476}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: WEREWOLF_ L Finger2
+      parentName: WEREWOLF_ L Hand
+      position: {x: -0.3340119, y: 0.019186553, z: 0.017096825}
+      rotation: {x: -0.013578323, y: -0.11409055, z: -0.063973635, w: 0.9913155}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: WEREWOLF_ L Finger21
+      parentName: WEREWOLF_ L Finger2
+      position: {x: -0.13863346, y: -0.00000015258789, z: 0}
+      rotation: {x: -0.00000007264313, y: -0.0000031739462, z: -0.03358492, w: 0.99943596}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: WEREWOLF_ L Finger22
+      parentName: WEREWOLF_ L Finger21
+      position: {x: -0.13136654, y: 0.00000015258789, z: -0.000000076293944}
+      rotation: {x: 0.0000000021653996, y: 0.000000030643115, z: -0.31031704, w: 0.9506331}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WEREWOLF_ L Finger3
+      parentName: WEREWOLF_ L Hand
+      position: {x: -0.32157165, y: 0.038642578, z: 0.1384796}
+      rotation: {x: 0.03244843, y: -0.11858285, z: -0.04676778, w: 0.99131125}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WEREWOLF_ L Finger31
+      parentName: WEREWOLF_ L Finger3
+      position: {x: -0.11543933, y: -0.00000015258789, z: 0}
+      rotation: {x: 0.00000021979204, y: -0.0000023841849, z: -0.03320394, w: 0.99944866}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: WEREWOLF_ L Finger32
+      parentName: WEREWOLF_ L Finger31
+      position: {x: -0.12690243, y: 0, z: 0.000000076293944}
+      rotation: {x: 0.000000015539547, y: -0.000000021912724, z: -0.35783565, w: 0.9337846}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: WEREWOLF_ R Clavicle
+      parentName: WEREWOLF_ Neck
+      position: {x: -0.000000076293944, y: 0.0001498413, z: -0.11949691}
+      rotation: {x: 0.59250915, y: 0.3398626, z: 0.7154472, w: -0.1468391}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WEREWOLF_ R UpperArm
+      parentName: WEREWOLF_ R Clavicle
+      position: {x: -0.50483036, y: -0.000000076293944, z: -0.00000015258789}
+      rotation: {x: 0.4612091, y: -0.003124445, z: 0.1583695, w: 0.8730381}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: WEREWOLF_ R Forearm
+      parentName: WEREWOLF_ R UpperArm
+      position: {x: -0.7309939, y: -0.000000019073486, z: -0.00000015258789}
+      rotation: {x: 0.0351017, y: -0.025300924, z: 0.00868915, w: 0.9990257}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WEREWOLF_ R Hand
+      parentName: WEREWOLF_ R Forearm
+      position: {x: -0.67565763, y: 0.000000076293944, z: 0}
+      rotation: {x: 0.86686045, y: 0.072086915, z: 0.048390638, w: 0.49093258}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: WEREWOLF_ R Finger0
+      parentName: WEREWOLF_ R Hand
+      position: {x: -0.13807845, y: 0.03502014, z: 0.2056913}
+      rotation: {x: 0.62207943, y: -0.6061595, z: 0.002699589, w: -0.49556082}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: WEREWOLF_ R Finger01
+      parentName: WEREWOLF_ R Finger0
+      position: {x: -0.1362819, y: 0.000000076293944, z: 0}
+      rotation: {x: 0.000000013958574, y: -0.000000009094719, z: -0.1135714, w: 0.99352986}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: WEREWOLF_ R Finger02
+      parentName: WEREWOLF_ R Finger01
+      position: {x: -0.1362819, y: -0.000000076293944, z: 0}
+      rotation: {x: 0, y: -0, z: -0.2547708, w: 0.9670015}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: WEREWOLF_ R Finger1
+      parentName: WEREWOLF_ R Hand
+      position: {x: -0.32362038, y: 0.019277344, z: 0.12565483}
+      rotation: {x: 0.04007868, y: 0.03223669, z: -0.08454306, w: 0.9950915}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: WEREWOLF_ R Finger11
+      parentName: WEREWOLF_ R Finger1
+      position: {x: -0.1362819, y: 0, z: -0.00000015258789}
+      rotation: {x: 0.000000007450577, y: 0.00000021234145, z: -0.037873317, w: 0.9992826}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WEREWOLF_ R Finger12
+      parentName: WEREWOLF_ R Finger11
+      position: {x: -0.11396307, y: 0, z: 0.000000076293944}
+      rotation: {x: 0.0000000013418807, y: 0.000000007328746, z: -0.18010418, w: 0.9836476}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WEREWOLF_ R Finger2
+      parentName: WEREWOLF_ R Hand
+      position: {x: -0.33401197, y: 0.019186402, z: -0.017096862}
+      rotation: {x: 0.0001570582, y: -0.0020226086, z: -0.107869916, w: 0.9941629}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: WEREWOLF_ R Finger21
+      parentName: WEREWOLF_ R Finger2
+      position: {x: -0.13863358, y: 0, z: -0.000000076293944}
+      rotation: {x: -0.0000005381006, y: -0.000003765802, z: -0.033588294, w: 0.9994358}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: WEREWOLF_ R Finger22
+      parentName: WEREWOLF_ R Finger21
+      position: {x: -0.1313666, y: 0, z: 0.000000076293944}
+      rotation: {x: -0.000000009248171, y: -0.000000028331078, z: -0.3103171, w: 0.9506331}
+      scale: {x: 0.9999998, y: 0.99999976, z: 0.9999999}
+    - name: WEREWOLF_ R Finger3
+      parentName: WEREWOLF_ R Hand
+      position: {x: -0.32157165, y: 0.038642578, z: -0.13847953}
+      rotation: {x: -0.05275963, y: -0.07862255, z: -0.08905349, w: 0.9915163}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: WEREWOLF_ R Finger31
+      parentName: WEREWOLF_ R Finger3
+      position: {x: -0.11543945, y: 0, z: -0.00000015258789}
+      rotation: {x: 0.00000013411037, y: -0.0000014826646, z: -0.033208985, w: 0.9994485}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: WEREWOLF_ R Finger32
+      parentName: WEREWOLF_ R Finger31
+      position: {x: -0.12690231, y: -0.00000015258789, z: 0}
+      rotation: {x: 0.000000049157613, y: 0.000000044993566, z: -0.35783565, w: 0.9337846}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.01
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
